@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JS functions</title>
+        <script>
+            console.log("hello from head tag");
+        </script>
+    </head>
+    <body>
+        
+
+        <script src="./js/script.js"></script>
+        <script>
+            console.log("hello from body tag");
+
+
+            //Function are resuable block of code.
+
+            //Lets define a function
+            //1. Function defination
+
+            //Syntax
+
+            /*
+                //1 Function defination (One Time process)
+                function name(parameter1, parameter2, parameter3) {
+                    // code to be executed
+                }
+
+
+                .//2. Function Calling (Many Time process)
+            */
+
+            //Lets add 2 now
+
+            let x = 10; // 4 byte
+
+            let y = 20; // 4 byte
+
+            console.log(x+y);
+
+            let a = 5; // 4 byte
+            let b = 5; // 4 byte
+            console.log(a + b);
+            
+            //1. function defination (one time process)
+            function sum(parameter1,parameter2){ // parameter = argument  formal arguments
+                //Function body
+
+                // Eveery function return something
+                // return result;
+
+                return parameter1 + parameter2;
+            }
+
+            //2. Function calling (Many time process)
+            console.log(sum(1,2)); // Actual Parameter/Argument
+
+            // 2nd time calling
+            var res = sum(10,20);
+            console.log(res); // function
+
+            //3rd time calling
+
+            let res2 = sum(5,5); //Actual Arguments
+
+            console.log(res2);;
+
+
+            // 3. Object
+
+            let console2 = {
+                //1. Property:Value
+                name:"Anil",
+                surname:"Dollor",
+                address:"Neemuch",
+
+                //2. Function
+                //1. Function defination (one time process)
+                log(){
+                    console.log("Hello from log function")
+                }
+
+            };
+
+            console.log(console2.name); //Technique 1
+            console.log(console2["surname"]);//Technique 2
+            var ad = 'address';
+            console.log(console2[ad]);
+
+            console2.log();
+
+
+
+
+            
+
+        </script>
+    </body>
+</html>

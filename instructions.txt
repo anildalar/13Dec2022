@@ -1,0 +1,45 @@
+Lecture 59- Functions
+
+What are functions ?
+
+Functions are resulable block of code.
+
+The resulable block of code is called functions
+
+DRY = Dont repeat yourself
+
+
+There are 2 imp point related to a function
+
+1. Function defination (one time process)
+2. Function Calling
+
+
+For example
+
+let x =10;
+let y =20;
+
+console.log(x+y);
+
+let a = 30;
+let b = 40;
+
+
+
+
+
+
+
+
+
+
+
+anything()
+
+console.log();
+window.alert();
+alert();
+prompt();
+document.getElementById();
+document.querySelector();
